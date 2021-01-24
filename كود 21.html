@@ -6,7 +6,6 @@
 <head>
   <title>Comments</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="/home/bourahla/Downloads/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
 
   <!-- CSS -->
   <style>
@@ -93,9 +92,9 @@
 </head>
 
 <body>
-  <section id="main">
+  <div id="main">
     <!-- Sign in form -->
-    <section id="form">
+    <div id="form">
       <div id="formInputs" style="display: none">
         <input type="text" name="name" id="name" placeholder="name" />
         <br />
@@ -108,10 +107,10 @@
       </div>
       <p id="signWarning"></p>
 
-    </section>
+    </div>
 
     <!-- Comments area -->
-    <section id="comments">
+    <div id="comments">
       <div id="search">
         <button onclick="clearSearch()">Clear</button>
         <button onclick="searchComment()">Search</button>
@@ -142,8 +141,8 @@
         </div>
       </div>
 
-    </section>
-  </section>
+    </div>
+  </div>
 
   <!-- SCRIPT -->
   <script>
